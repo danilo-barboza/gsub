@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'gsub'
+
+puts MovieHasher::compute_hash(ARGV[0])
